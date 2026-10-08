@@ -2,7 +2,7 @@
 
 CalendarFlow turns visible Trello board dates into a monthly calendar, a seven-day planner, a compact year overview, and deadline counts. It can print from the browser or download CSV and iCalendar files locally.
 
-> **Release status:** initial implementation, not registered or hosted yet. Trello connection and print appearance still need live Trello QA. See [release checklist](docs/release-checklist.md).
+> **Release status:** Power-Up registered and public static hosting is live. The app is not approved or listed in the Trello directory; live board QA and developer review submission remain in progress. See [release checklist](docs/release-checklist.md).
 
 ## Features implemented
 
@@ -47,7 +47,7 @@ Only board-level `board-buttons`, `on-enable`, and `show-settings` capabilities 
 
 ## Hosting and Trello setup
 
-See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), and [release checklist](docs/release-checklist.md). A public GitHub Pages workflow is included, but the repository and Pages site must first be created in an authorized GitHub account.
+See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), and [release checklist](docs/release-checklist.md). The source is public at [GitHub](https://github.com/mateopedersen/calendarflow-trello-powerup), and the live connector is hosted at [GitHub Pages](https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html).
 
 ## Support
 

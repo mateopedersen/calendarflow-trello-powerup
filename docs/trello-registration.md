@@ -1,14 +1,22 @@
 # Trello Registration Notes
 
-Register the application at <https://trello.com/apps/admin> after the connector is published and reachable over HTTPS.
+## Created app
 
 - Name: CalendarFlow — Printable Project Planner
+- Power-Up ID: `6ac7553081b7246032038717`
+- Workspace: Mateo Pedersen's workspace
 - Author: Beta Calendars
 - Type: uses Power-Up capabilities
-- Connector URL: the verified HTTPS URL ending in `/src/index.html`
-- Capabilities to enable: board-buttons, on-enable, show-settings
-- Listing language: English only (the interface and listing are currently English)
-- Support email: use an owner-approved, verified Beta Calendars address
-- Privacy policy: verified published URL for `docs/privacy.html`
+- Connector: <https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html>
+- Icon: <https://mateopedersen.github.io/calendarflow-trello-powerup/src/assets/calendarflow-icon.svg>
+- Support contact: the verified account email `mateo@betacalendars.com`
+- Privacy: <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html>
+- Categories: IT & project management; Analytics & reporting
+- Capabilities selected: `board-buttons`, `on-enable`, `show-settings`
+- Listing language: English (US); listing draft saved in the portal
 
-The Power-Up ID comes from the real app's admin URL after creation. Do not invent it. Trello's current submission guide says registration and a Joint Developer's Agreement are required before review. The account owner must review and accept that agreement; an agent must not accept it on the owner's behalf.
+## Review boundary
+
+The registration is real, but the Power-Up is not publicly approved or listed. The Joint Developer's Agreement has not been accepted. The app-add consent shown on the private QA board also disclosed broader board/member actions than the implementation uses; the app was not enabled while owner confirmation was pending.
+
+The account owner must review and accept any JDA themselves. Do not state that a submission was sent until the current developer support flow returns an actual submission confirmation.

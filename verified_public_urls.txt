@@ -1,6 +1,23 @@
 CalendarFlow public URL inventory — checked 8 October 2026
 
-https://github.com/mateopedersen/calendarflow-trello-powerup
-Status: Public GitHub repository exists. It currently contains no pushed project files; the web page is GitHub's empty-repository setup page.
+Public repo and hosted URLs visibly opened in the authenticated browser session:
 
-No public CalendarFlow Trello listing, hosted connector, or hosted help page exists yet. No URL in this file is evidence of marketplace approval.
+https://github.com/mateopedersen/calendarflow-trello-powerup
+Status: Public source repository; README and project files are present.
+
+https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html
+Status: HTTPS connector landing page opened. It loads the Trello Power-Up Client Library script by URL; full Trello iframe startup still awaits QA-board access approval.
+
+https://mateopedersen.github.io/calendarflow-trello-powerup/src/assets/calendarflow-icon.svg
+Status: The same public asset URL is configured in Trello. Trello displayed the icon in its QA-board Power-Up consent panel.
+
+https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html
+Status: Public privacy notice opened and its content verified in the browser.
+
+https://mateopedersen.github.io/calendarflow-trello-powerup/docs/support.html
+Status: Public support page opened and its content verified in the browser.
+
+https://mateopedersen.github.io/calendarflow-trello-powerup/docs/user-guide.html
+Status: Public guide opened and its month/week/year/print/export instructions verified in the browser.
+
+No public Trello Power-Up directory listing exists yet. The registered app ID `6ac7553081b7246032038717` is not evidence of approval, a public listing, or review submission. No case/reference number exists.
