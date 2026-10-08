@@ -54,6 +54,7 @@ See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), a
 - [Quick guide](docs/user-guide.html)
 - [Privacy notice](docs/privacy.html)
 - [Support](docs/support.html)
+- [Reviewer test guide](docs/reviewer-guide.md)
 - Beta Calendars [contact](https://www.betacalendars.com/contact)
 
 ## License

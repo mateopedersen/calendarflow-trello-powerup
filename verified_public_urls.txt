@@ -20,6 +20,9 @@ Status: Public support page opened and its content verified in the browser.
 https://mateopedersen.github.io/calendarflow-trello-powerup/docs/user-guide.html
 Status: Public guide opened and its month/week/year/print/export instructions verified in the browser.
 
+https://mateopedersen.github.io/calendarflow-trello-powerup/docs/reviewer-guide.md
+Status: Reviewer instructions with synthetic, relative-date test cards and expected analytics counts are published in the source repo; Pages deployment of this addition is pending.
+
 The Trello app is registered and a listing draft is saved, but no public Power-Up Directory listing or review submission exists. The registered app ID `6ac7553081b7246032038717` is not evidence of approval. No case/reference number exists.
 
 QA limits: the add flow disclosed broad board/member permissions; user approval was limited to the private QA board. The connector reads board data and does not call write APIs. Print/PDF output and browser download completion for CSV/ICS were not visibly verified.
