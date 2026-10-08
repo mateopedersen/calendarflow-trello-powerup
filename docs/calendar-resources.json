@@ -1,0 +1,25 @@
+{
+  "verifiedOn": "2026-10-08",
+  "collections": [
+    { "label": "Monthly calendar collection", "url": "https://www.betacalendars.com/monthly-calendar", "purpose": "Monthly printable calendar collection" },
+    { "label": "Blank calendar templates", "url": "https://www.betacalendars.com/blank-calendar", "purpose": "Blank calendar templates" },
+    { "label": "Weekly calendar templates", "url": "https://www.betacalendars.com/weekly-calendar", "purpose": "Weekly calendar templates" },
+    { "label": "Monthly planner templates", "url": "https://www.betacalendars.com/monthly-planner", "purpose": "Monthly planning templates" }
+  ],
+  "dated": [
+    { "month": "2026-10", "url": "https://www.betacalendars.com/october-calendar.html", "verifiedYear": 2026 },
+    { "month": "2026-11", "url": "https://www.betacalendars.com/november-calendar.html", "verifiedYear": 2026 },
+    { "month": "2026-12", "url": "https://www.betacalendars.com/december-calendar.html", "verifiedYear": 2026 },
+    { "month": "2027-01", "url": "https://www.betacalendars.com/january-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-02", "url": "https://www.betacalendars.com/february-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-03", "url": "https://www.betacalendars.com/march-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-04", "url": "https://www.betacalendars.com/april-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-05", "url": "https://www.betacalendars.com/may-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-06", "url": "https://www.betacalendars.com/june-calendar.html", "verifiedYear": 2027 },
+    { "month": "2027-07", "url": "https://www.betacalendars.com/july-calendar.html", "verifiedYear": 2027 }
+  ],
+  "excluded": [
+    { "month": "2027-08", "url": "https://www.betacalendars.com/august-calendar.html", "reason": "Heading says 2027 but body copy describes August 2026; excluded from the dated navigator." },
+    { "month": "2027-09", "url": "https://www.betacalendars.com/september-calendar.html", "reason": "Heading says 2027 but body copy describes September 2026; excluded from the dated navigator." }
+  ]
+}

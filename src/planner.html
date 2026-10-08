@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CalendarFlow Planner</title><link rel="stylesheet" href="./styles.css"></head>
+<body>
+  <div class="app-shell">
+    <header class="topbar"><a class="brand" href="#" aria-label="CalendarFlow home"><img src="./assets/calendarflow-icon.svg" alt=""><span>Calendar<span>Flow</span></span></a><span id="board-name" class="board-name">Loading current Trello board…</span><a class="help-link" href="../docs/support.html" target="_blank" rel="noopener noreferrer">Help</a></header>
+    <main class="main-content">
+      <section class="toolbar"><div class="view-switch" aria-label="Planner view"><button data-view="month" class="active">Month</button><button data-view="week">Week</button><button data-view="year">Year</button><button data-view="insights">Insights</button><button data-view="resources">Resources</button></div><div class="actions"><button id="export-csv" class="icon-button" title="Export CSV">CSV ↓</button><button id="export-ics" class="icon-button" title="Export iCalendar">ICS ↓</button><button id="print" class="button primary">Print / Save PDF</button></div></section>
+      <section class="period-bar"><div class="period-nav"><button id="previous" class="nav-button" aria-label="Previous month">‹</button><h1 id="period">Loading…</h1><button id="next" class="nav-button" aria-label="Next month">›</button><button id="today" class="button quiet">Today</button></div><div class="view-settings"><label>Year <select id="year-select"></select></label><label>Week starts <select id="week-start"><option value="1">Monday</option><option value="0">Sunday</option></select></label><details class="print-menu"><summary>Print settings</summary><div class="print-options"><label>Paper <select id="paper-size"><option value="a4">A4</option><option value="letter">US Letter</option></select></label><label>Orientation <select id="orientation"><option value="landscape">Landscape</option><option value="portrait">Portrait</option></select></label><label class="check"><input id="show-titles" type="checkbox" checked> Show card names</label><label class="check"><input id="monochrome" type="checkbox"> Monochrome</label></div></details></div></section>
+      <div class="print-heading"><img src="./assets/calendarflow-icon.svg" alt=""><div><strong>CalendarFlow</strong><span id="print-title"></span></div><span id="print-board"></span></div>
+      <section id="content" aria-live="polite"><div class="loading">Loading board cards…</div></section>
+    </main>
+    <footer class="footer"><span>CalendarFlow reads visible cards from this board in your browser.</span><a href="https://www.betacalendars.com/" target="_blank" rel="noopener noreferrer">By Beta Calendars ↗</a></footer>
+  </div>
+  <script src="https://p.trellocdn.com/power-up.min.js"></script><script type="module" src="./planner.js"></script>
+</body></html>
