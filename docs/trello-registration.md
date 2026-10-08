@@ -17,6 +17,10 @@
 
 ## Review boundary
 
-The registration is real, but the Power-Up is not publicly approved or listed. The Joint Developer's Agreement has not been accepted. The app-add consent shown on the private QA board also disclosed broader board/member actions than the implementation uses; the app was not enabled while owner confirmation was pending.
+The registration is real, but the Power-Up is not publicly approved or listed. The Joint Developer's Agreement has not been accepted and no support submission was sent.
 
-The account owner must review and accept any JDA themselves. Do not state that a submission was sent until the current developer support flow returns an actual submission confirmation.
+The user explicitly approved adding the app to the private QA board after Trello disclosed access to board content, permission to add content and act on cards/lists, and visibility into board members' basic identity details. The connector implementation reads cards and lists and does not call write APIs. Trello's iframe permission context nevertheless included `board:write` and `organization:write`; this scope mismatch should be resolved before public review.
+
+Private QA verified iframe startup, onboarding, toolbar button, real board card/list reading, month/week/year views, insights, resources, and settings using synthetic cards. The print layout and controls displayed, but native print/PDF output was not confirmed. CSV and ICS controls were invoked, but the browser gave no visible download confirmation.
+
+The account owner must review and explicitly decide whether to accept any JDA themselves. Do not state that a submission was sent until the current developer support flow returns an actual submission confirmation.

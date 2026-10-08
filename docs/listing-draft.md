@@ -16,6 +16,6 @@ The optional resource panel links to printable templates from [Beta Calendars](h
 
 Developed by [Beta Calendars](https://www.betacalendars.com/).
 
-See the [Privacy Notice](https://HOST-PENDING/calendarflow/docs/privacy.html) and [Support](https://HOST-PENDING/calendarflow/docs/support.html).
+See the [Privacy Notice](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html) and [Support](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/support.html).
 
-*Replace `HOST-PENDING` with the verified public HTTPS hostname before entering this listing.*
+This text is the listing draft saved in the Trello developer portal. The Power-Up is registered but has not been submitted for public review.

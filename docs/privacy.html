@@ -1,1 +1,33 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CalendarFlow Privacy Notice</title><style>body{font:16px/1.65 system-ui;color:#243d49;max-width:780px;margin:48px auto;padding:0 20px}h1,h2{font-family:system-ui;color:#163d51}small{color:#77888d}a{color:#1f786f}</style></head><body><main><p><a href="../src/planner.html">CalendarFlow</a></p><h1>CalendarFlow Privacy Notice</h1><small>Source description dated 8 October 2026. Final publication requires owner review.</small><p>CalendarFlow is a read-only Trello Power-Up. When opened on a board, it asks Trello's official Power-Up Client Library for visible cards' IDs, titles, start and due dates, completion state, labels, list IDs, Trello URLs, and open list names. These values are used to render that board's calendar, planner, deadline summaries, and files the user explicitly exports.</p><h2>Processing and storage</h2><p>Board card data is processed in the planner iframe in the user's browser. CalendarFlow does not send card names, dates, labels, list names, board IDs, or Trello URLs to Beta Calendars, an analytics service, or an external print service. CSV and iCalendar files are built locally and downloaded only after a user clicks an export control. Printing uses the browser's print dialog. CalendarFlow has no backend and does not persist board data. The week-start preference is stored in local browser storage and contains no board data.</p><p>The connector loads Trello's official client library from <code>p.trellocdn.com</code>. The browser communicates with Trello/Atlassian when retrieving that library and board data. CalendarFlow itself makes no external request containing board data. Beta Calendars pages open only after a user clicks an optional link; no Trello details are added to those URLs. The destination site may receive ordinary request metadata and applies its own privacy practices.</p><h2>Permissions and removal</h2><p>The current implementation uses the board button, enable onboarding, and settings capabilities. It reads visible cards and open lists on the current board. It does not edit cards, due dates, descriptions, or board content. No personal data is stored by CalendarFlow. Disabling the Power-Up stops its integration. The local week-start choice can be removed by clearing site data for the connector origin. There is no server-side board record to delete.</p><h2>Contact</h2><p>For support or privacy questions, use the <a href="https://www.betacalendars.com/contact" target="_blank" rel="noopener noreferrer">Beta Calendars contact page</a>.</p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CalendarFlow Privacy Notice</title>
+  <style>
+    body{font:16px/1.65 system-ui;color:#243d49;max-width:780px;margin:48px auto;padding:0 20px}
+    h1,h2{font-family:system-ui;color:#163d51}
+    small{color:#77888d}
+    a{color:#1f786f}
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="../src/planner.html">CalendarFlow</a></p>
+    <h1>CalendarFlow Privacy Notice</h1>
+    <small>Updated 8 October 2026</small>
+    <p>CalendarFlow is a Trello Power-Up by Beta Calendars. Its planner reads visible cards on the current board through Trello's official Power-Up Client Library. It requests card IDs, titles, start and due dates, completion state, labels, list IDs, Trello URLs, and open list names to display calendar views, deadline summaries, and user-requested exports.</p>
+
+    <h2>Processing and storage</h2>
+    <p>Board card data is processed in the planner iframe in the user's browser. CalendarFlow does not send card names, dates, labels, list names, board IDs, or Trello URLs to Beta Calendars, an analytics service, or an external print service. CSV and iCalendar files are generated locally after a user selects an export control. Printing uses the browser's print dialog. CalendarFlow has no backend and does not persist board data. The week-start preference is stored in local browser storage and contains no board data.</p>
+    <p>The connector loads Trello's official client library from <code>p.trellocdn.com</code>. The browser communicates with Trello/Atlassian to load the library and access the current board. CalendarFlow itself makes no external request containing board data. Optional Beta Calendars pages open only after a user clicks a link; no Trello details are added to those URLs. The destination site may receive ordinary request metadata and applies its own privacy practices.</p>
+
+    <h2>Permissions and removal</h2>
+    <p>The registered app enables the board toolbar button, onboarding, and settings capabilities. The connector uses read operations for cards and lists and does not call Trello write methods. Trello's add-to-board notice nevertheless describes broader permission to access the board, add content and act on cards or lists, and view board members' basic identity details. The current Trello iframe permission context also reported board and organization write access. CalendarFlow does not use those write or member-profile abilities; this difference is being reviewed before public submission. Users should enable it only if they are comfortable with the permissions Trello displays.</p>
+    <p>CalendarFlow does not edit cards, due dates, descriptions, or board content, and does not store Trello member personal data. Disabling the Power-Up stops its board integration. The local week-start choice can be removed by clearing site data for the connector origin. There is no server-side board record to delete.</p>
+
+    <h2>Contact</h2>
+    <p>For support or privacy questions, use the <a href="https://www.betacalendars.com/contact" target="_blank" rel="noopener noreferrer">Beta Calendars contact page</a>. Do not include private board or card information in a support request.</p>
+  </main>
+</body>
+</html>

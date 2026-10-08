@@ -11,7 +11,7 @@ Checked on 8 October 2026.
 - [Capabilities](https://developer.atlassian.com/cloud/trello/power-ups/capabilities/): capabilities enabled in the portal must have matching handlers in `TrelloPowerUp.initialize()`.
 - [Accessing Trello Data](https://developer.atlassian.com/cloud/trello/power-ups/client-library/accessing-trello-data/): `t.cards()` returns visible/open cards, excluding archived cards and cards in archived lists; supported fields include start, due, dueComplete, URL, labels, and list ID. CalendarFlow requests only the fields it uses.
 
-The source implements a board toolbar entry, enable onboarding, and settings. It uses read-only `t.cards()` and `t.lists()` access. It does not copy Trello's native Calendar view; its distinguishing work is browser printing, compact year view, deadline counts, and local export.
+The source implements a board toolbar entry, enable onboarding, and settings. It uses read-only `t.cards()` and `t.lists()` access. Private-board integration was tested with synthetic QA cards. Trello's add consent and runtime permission context displayed write-level board/workspace access despite the connector not calling write methods; this mismatch remains a pre-submission issue. It does not copy Trello's native Calendar view; its distinguishing work is browser printing, compact year view, deadline counts, and local export.
 
 ## Beta Calendars destinations
 
@@ -26,4 +26,4 @@ The homepage showed a 2026 calendar page and October/November 2026 links. Dated 
 
 ## Limitations
 
-The source identifies Trello's native calendar as an existing feature in Trello's ecosystem; this research did not exhaustively compare every marketplace competitor. App registration and in-Trello runtime behavior remain pending live Trello access and owner review of the agreement.
+The source identifies Trello's native calendar as an existing feature in Trello's ecosystem; this research did not exhaustively compare every marketplace competitor. App registration and private in-Trello runtime behavior are complete. Public review still requires the account owner to review the Joint Developer's Agreement, and the Atlassian support form currently redirects to a help-center signup whose button accepts its Privacy Policy and Notice and Disclaimer.
