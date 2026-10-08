@@ -1,0 +1,25 @@
+Beta Calendars destination inventory — checked 8 October 2026
+
+Collection pages (page content was returned by the web reader; HTTP status codes were not directly observed):
+https://www.betacalendars.com/
+https://www.betacalendars.com/monthly-calendar
+https://www.betacalendars.com/blank-calendar
+https://www.betacalendars.com/weekly-calendar
+https://www.betacalendars.com/monthly-planner
+https://www.betacalendars.com/contact
+
+Dated pages with matching month/year copy verified:
+https://www.betacalendars.com/october-calendar.html — October 2026
+https://www.betacalendars.com/november-calendar.html — November 2026
+https://www.betacalendars.com/december-calendar.html — December 2026
+https://www.betacalendars.com/january-calendar.html — January 2027
+https://www.betacalendars.com/february-calendar.html — February 2027
+https://www.betacalendars.com/march-calendar.html — March 2027
+https://www.betacalendars.com/april-calendar.html — April 2027
+https://www.betacalendars.com/may-calendar.html — May 2027
+https://www.betacalendars.com/june-calendar.html — June 2027
+https://www.betacalendars.com/july-calendar.html — July 2027
+
+Checked and excluded from dated links due to inconsistent year copy:
+https://www.betacalendars.com/august-calendar.html — heading says August 2027; body copy says August 2026.
+https://www.betacalendars.com/september-calendar.html — heading says September 2027; body copy says September 2026.

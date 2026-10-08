@@ -1,0 +1,6 @@
+CalendarFlow public URL inventory — checked 8 October 2026
+
+https://github.com/mateopedersen/calendarflow-trello-powerup
+Status: Public GitHub repository exists. It currently contains no pushed project files; the web page is GitHub's empty-repository setup page.
+
+No public CalendarFlow Trello listing, hosted connector, or hosted help page exists yet. No URL in this file is evidence of marketplace approval.

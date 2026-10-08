@@ -1,0 +1,10 @@
+category,source_url,target_url,anchor_text,http_availability,public_rendered,rel_attributes,crawlability,public_access,notes
+A public Trello directory,,,,Not available,No,Not observed,Not applicable,No,App not registered or approved; no listing source URL exists.
+B hosted product/help docs,,,,Not available,No,Not observed,Not applicable,No,GitHub Pages is not deployed; local files are not public URLs.
+C public GitHub repository,https://github.com/mateopedersen/calendarflow-trello-powerup,,,Available,No README/files yet,Not applicable,Repository accessible,Yes,Public repository created; project source push was stopped by automatic approval review pending owner approval.
+D authenticated Trello Power-Up UI,,,,Not available,No,Not observed,Not applicable,No,App has not been registered or enabled on a board.
+E plain URLs embedded in source/JSON,Local source only,https://www.betacalendars.com/monthly-calendar,Monthly calendar collection,Available at destination,No public source file,Not applicable,Destination public,Yes,URL exists in local planner code but source has not been pushed.
+E plain URLs embedded in source/JSON,Local source only,https://www.betacalendars.com/blank-calendar,Blank calendar templates,Available at destination,No public source file,Not applicable,Destination public,Yes,URL exists in local planner code but source has not been pushed.
+E plain URLs embedded in source/JSON,Local source only,https://www.betacalendars.com/weekly-calendar,Weekly calendar templates,Available at destination,No public source file,Not applicable,Destination public,Yes,URL exists in local planner code but source has not been pushed.
+E plain URLs embedded in source/JSON,Local source only,https://www.betacalendars.com/monthly-planner,Monthly planner templates,Available at destination,No public source file,Not applicable,Destination public,Yes,URL exists in local planner code but source has not been pushed.
+F developer portal only,,,,Not available,No,Not observed,Not applicable,No,No app entry or portal links created.
