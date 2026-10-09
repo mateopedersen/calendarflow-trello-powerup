@@ -10,7 +10,7 @@
 - [x] Save connector URL, icon, support details, author, and two categories.
 - [x] Select implemented capabilities: `board-buttons`, `on-enable`, `show-settings`.
 - [x] Save English directory listing draft and public privacy URL.
-- [ ] Save the revised English listing in the Trello admin portal, including the monthly and insights preview images.
+- [x] Save the expanded English listing in the Trello admin portal, including monthly and insights PNG previews built with synthetic sample data.
 - [x] Receive Trello review feedback requesting a fuller overview/description with visuals and a Content-Security-Policy for the connector.
 - [ ] Deploy the connector on a host that sends custom HTTP response headers; GitHub Pages does not apply the prepared `_headers` rules.
 - [ ] Verify the CSP and related headers at the exact registered connector URL, then retest the Power-Up on the private QA board.
@@ -25,4 +25,4 @@
 - [ ] Record the re-review response and current status.
 - [ ] Verify an approved public directory page and rendered links if Trello approves the listing.
 
-The source repo is public and GitHub Pages is live. Trello has returned review feedback; the requested changes and re-review remain outstanding. App registration and a working hosted connector do not mean Trello has approved or published the Power-Up.
+The source repo is public and GitHub Pages is live. The expanded listing and its PNG previews are saved, but the connector still needs a header-capable host and a verified CSP before re-review. App registration and a working hosted connector do not mean Trello has approved or published the Power-Up.
