@@ -4,11 +4,11 @@
 
 - **Power-Up:** CalendarFlow — Printable Project Planner
 - **Power-Up ID:** `6ac7553081b7246032038717`
-- **Connector:** <https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html>
+- **Connector:** <https://calendarflow-trello-powerup.pages.dev/src/index.html>
 - **Source:** <https://github.com/mateopedersen/calendarflow-trello-powerup>
-- **Privacy:** <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html>
-- **Support:** <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/support.html>
-- **User guide:** <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/user-guide.html>
+- **Privacy:** <https://calendarflow-trello-powerup.pages.dev/docs/privacy.html>
+- **Support:** <https://calendarflow-trello-powerup.pages.dev/docs/support.html>
+- **User guide:** <https://calendarflow-trello-powerup.pages.dev/docs/user-guide.html>
 - **Capabilities:** `board-buttons`, `on-enable`, `show-settings`
 
 ## Reproduce the main features

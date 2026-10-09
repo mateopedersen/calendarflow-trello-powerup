@@ -2,7 +2,7 @@
 
 CalendarFlow turns visible Trello board dates into a monthly calendar, a seven-day planner, a compact year overview, and deadline counts. It can print from the browser or download CSV and iCalendar files locally.
 
-> **Review status (9 October 2026):** Trello's Power-Up Review Team tested CalendarFlow and returned two requested changes: expand the directory overview/description with useful visuals, and define a Content Security Policy for the connector. The expanded English listing and two illustrative previews using synthetic sample data are saved in the Trello admin portal. GitHub Pages cannot apply the required HTTP security headers, so the connector still needs a header-capable static host and a verified CSP before re-review. The Power-Up is not approved or listed. See [release checklist](docs/release-checklist.md).
+> **Review status (9 October 2026):** Trello's Power-Up Review Team requested a fuller directory overview/description with visuals and a Content Security Policy for the connector. Both updates are complete: the revised listing and two synthetic-data previews are saved in Trello, and the connector is now served by Cloudflare Pages with CSP and related security headers. The live connector received an A+ SecurityHeaders report, and the QA board loaded the planner and its Trello cards from the new URL. A re-review request has been posted to ticket ECOHELP-172192. The Power-Up is not yet approved or publicly listed. See [release checklist](docs/release-checklist.md).
 
 ## Features implemented
 
@@ -47,7 +47,7 @@ Only board-level `board-buttons`, `on-enable`, and `show-settings` capabilities 
 
 ## Hosting and Trello setup
 
-See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), and [release checklist](docs/release-checklist.md). The source is public at [GitHub](https://github.com/mateopedersen/calendarflow-trello-powerup), and the live connector is hosted at [GitHub Pages](https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html).
+See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), and [release checklist](docs/release-checklist.md). The source is public at [GitHub](https://github.com/mateopedersen/calendarflow-trello-powerup), and the live connector is hosted at [Cloudflare Pages](https://calendarflow-trello-powerup.pages.dev/src/index.html).
 
 ## Support
 
@@ -55,7 +55,7 @@ See [setup](docs/setup.md), [registration notes](docs/trello-registration.md), a
 - [Privacy notice](docs/privacy.html)
 - [Support](docs/support.html)
 - [Reviewer test guide](docs/reviewer-guide.html)
-- [Interactive sample planner](https://mateopedersen.github.io/calendarflow-trello-powerup/src/planner.html?demo=1)
+- [Interactive sample planner](https://calendarflow-trello-powerup.pages.dev/src/planner.html?demo=1)
 - Beta Calendars [contact](https://www.betacalendars.com/contact)
 
 ## License

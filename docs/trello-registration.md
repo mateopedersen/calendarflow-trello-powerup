@@ -7,7 +7,7 @@
 - Workspace: Mateo Pedersen's workspace
 - Author: Beta Calendars
 - Type: uses Power-Up capabilities
-- Connector: <https://mateopedersen.github.io/calendarflow-trello-powerup/src/index.html>
+- Connector: <https://calendarflow-trello-powerup.pages.dev/src/index.html>
 - Icon: <https://mateopedersen.github.io/calendarflow-trello-powerup/src/assets/calendarflow-icon.svg>
 - Support contact: the verified account email `mateo@betacalendars.com`
 - Privacy: <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html>
@@ -17,7 +17,7 @@
 
 ## Review boundary
 
-The registration is real, but the Power-Up is not publicly approved or listed. Trello's review team has tested the Power-Up and requested a fuller listing with visuals and a Content-Security-Policy for the connector. Once these changes are live, the owner can reply to request re-review. The current account owner reports receiving no separate agreement-signing email; confirm any remaining agreement requirement with Trello instead of assuming its status.
+The registration is real, but the Power-Up is not publicly approved or listed. Trello's requested listing and CSP changes are live. The connector is served by Cloudflare Pages and received an A+ SecurityHeaders scan; the QA board loads the planner from the new URL. A re-review request has been posted to ticket ECOHELP-172192. The current account owner reports receiving no separate agreement-signing email; confirm any remaining agreement requirement with Trello instead of assuming its status.
 
 The user explicitly approved adding the app to the private QA board after Trello disclosed access to board content, permission to add content and act on cards/lists, and visibility into board members' basic identity details. The connector implementation reads cards and lists and does not call write APIs. Trello's iframe permission context nevertheless included `board:write` and `organization:write`; this scope mismatch should be resolved before public review.
 
