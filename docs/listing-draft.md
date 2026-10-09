@@ -10,7 +10,7 @@ Print-ready Trello calendars with month, week, year, deadline insights, and loca
 
 Turn dates already on your Trello board into a clear plan you can use on screen or on paper. CalendarFlow reads visible cards on the current board and gives you focused calendar views, practical deadline counts, and exports created in your browser.
 
-![CalendarFlow monthly planner preview using synthetic sample cards](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/assets/calendarflow-month-preview.svg)
+![CalendarFlow monthly planner preview using synthetic sample cards](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/assets/calendarflow-month-preview.png)
 
 ## Plan by month, week, or year
 
@@ -19,7 +19,7 @@ Turn dates already on your Trello board into a clear plan you can use on screen 
 - **Year:** Scan a compact twelve-month overview with deadline counts.
 - **Insights:** Count visible cards with due dates, completed due-date cards, overdue incomplete cards, upcoming incomplete cards, and cards without a due date. The monthly density view shows dates with more deadlines; it does not estimate effort.
 
-![CalendarFlow deadline insights preview using synthetic sample cards](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/assets/calendarflow-insights-preview.svg)
+![CalendarFlow deadline insights preview using synthetic sample cards](https://mateopedersen.github.io/calendarflow-trello-powerup/docs/assets/calendarflow-insights-preview.png)
 
 ## Print and export on your device
 
