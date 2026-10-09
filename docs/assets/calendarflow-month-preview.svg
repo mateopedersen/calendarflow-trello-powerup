@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">CalendarFlow monthly project planner preview</title>
+  <desc id="desc">A sample Trello project board shown in a monthly calendar with synthetic cards, week numbers, and print settings.</desc>
+  <rect width="1440" height="900" rx="24" fill="#f6f7f5"/>
+  <rect x="0" y="0" width="1440" height="76" rx="24" fill="#fff"/>
+  <path d="M0 52h1440v24H0z" fill="#fff"/>
+  <path d="M0 76h1440" stroke="#e3e9e7"/>
+  <rect x="38" y="21" width="34" height="34" rx="10" fill="#183747"/>
+  <path d="M47 31h16v14H47zM51 27v8m8-8v8" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="85" y="46" fill="#183747" font-family="Arial,sans-serif" font-size="24" font-weight="700">Calendar<tspan fill="#1f786f">Flow</tspan></text>
+  <text x="290" y="44" fill="#73838b" font-family="Arial,sans-serif" font-size="15">Example board · synthetic cards</text>
+  <text x="1345" y="45" text-anchor="end" fill="#73838b" font-family="Arial,sans-serif" font-size="15">Help</text>
+  <rect x="50" y="112" width="795" height="48" rx="11" fill="#e9efed"/>
+  <rect x="54" y="116" width="110" height="40" rx="8" fill="#fff"/>
+  <text x="109" y="142" text-anchor="middle" fill="#183747" font-family="Arial,sans-serif" font-size="15" font-weight="700">Month</text>
+  <text x="221" y="142" text-anchor="middle" fill="#708088" font-family="Arial,sans-serif" font-size="15">Week</text>
+  <text x="331" y="142" text-anchor="middle" fill="#708088" font-family="Arial,sans-serif" font-size="15">Year</text>
+  <text x="457" y="142" text-anchor="middle" fill="#708088" font-family="Arial,sans-serif" font-size="15">Insights</text>
+  <text x="590" y="142" text-anchor="middle" fill="#708088" font-family="Arial,sans-serif" font-size="15">Resources</text>
+  <rect x="936" y="112" width="96" height="48" rx="8" fill="#fff" stroke="#e3e9e7"/>
+  <text x="984" y="142" text-anchor="middle" fill="#526972" font-family="Arial,sans-serif" font-size="14" font-weight="700">CSV ↓</text>
+  <rect x="1044" y="112" width="96" height="48" rx="8" fill="#fff" stroke="#e3e9e7"/>
+  <text x="1092" y="142" text-anchor="middle" fill="#526972" font-family="Arial,sans-serif" font-size="14" font-weight="700">ICS ↓</text>
+  <rect x="1152" y="112" width="238" height="48" rx="8" fill="#183747"/>
+  <text x="1271" y="142" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="700">Print / Save PDF</text>
+  <text x="51" y="222" fill="#183747" font-family="Arial,sans-serif" font-size="32" font-weight="700">October 2026</text>
+  <rect x="275" y="188" width="44" height="42" rx="8" fill="#fff" stroke="#e3e9e7"/>
+  <text x="297" y="217" text-anchor="middle" fill="#3d5b62" font-family="Arial,sans-serif" font-size="28">‹</text>
+  <rect x="329" y="188" width="44" height="42" rx="8" fill="#fff" stroke="#e3e9e7"/>
+  <text x="351" y="217" text-anchor="middle" fill="#3d5b62" font-family="Arial,sans-serif" font-size="28">›</text>
+  <rect x="386" y="188" width="82" height="42" rx="8" fill="#fff" stroke="#dce8e4"/>
+  <text x="427" y="214" text-anchor="middle" fill="#1f786f" font-family="Arial,sans-serif" font-size="14" font-weight="700">Today</text>
+  <text x="1005" y="214" fill="#73838b" font-family="Arial,sans-serif" font-size="14">Week starts</text>
+  <rect x="1106" y="188" width="112" height="42" rx="7" fill="#fff" stroke="#e3e9e7"/>
+  <text x="1121" y="214" fill="#354e58" font-family="Arial,sans-serif" font-size="14">Monday</text>
+  <text x="1251" y="214" fill="#73838b" font-family="Arial,sans-serif" font-size="14">Print settings</text>
+  <rect x="50" y="252" width="1340" height="570" rx="13" fill="#fff" stroke="#e3e9e7"/>
+  <rect x="51" y="253" width="1338" height="53" rx="12" fill="#fbfcfb"/>
+  <path d="M50 306h1340M50 409h1340M50 512h1340M50 615h1340M50 718h1340M241 252v570M433 252v570M625 252v570M817 252v570M1009 252v570M1201 252v570" stroke="#e3e9e7"/>
+  <g fill="#7b898e" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1">
+    <text x="68" y="285">MON</text><text x="259" y="285">TUE</text><text x="451" y="285">WED</text><text x="643" y="285">THU</text><text x="835" y="285">FRI</text><text x="1027" y="285">SAT</text><text x="1219" y="285">SUN</text>
+  </g>
+  <g fill="#183747" font-family="Arial,sans-serif" font-size="15" font-weight="600">
+    <text x="69" y="337">28</text><text x="260" y="337">29</text><text x="452" y="337">30</text><text x="644" y="337">1</text><text x="836" y="337">2</text><text x="1028" y="337">3</text><text x="1220" y="337">4</text>
+    <text x="69" y="440">5</text><text x="260" y="440">6</text><text x="452" y="440">7</text><text x="644" y="440">8</text><text x="836" y="440">9</text><text x="1028" y="440">10</text><text x="1220" y="440">11</text>
+    <text x="69" y="543">12</text><text x="260" y="543">13</text><text x="452" y="543">14</text><text x="644" y="543">15</text><text x="836" y="543">16</text><text x="1028" y="543">17</text><text x="1220" y="543">18</text>
+    <text x="69" y="646">19</text><text x="260" y="646">20</text><text x="452" y="646">21</text><text x="644" y="646">22</text><text x="836" y="646">23</text><text x="1028" y="646">24</text><text x="1220" y="646">25</text>
+    <text x="69" y="749">26</text><text x="260" y="749">27</text><text x="452" y="749">28</text><text x="644" y="749">29</text><text x="836" y="749">30</text><text x="1028" y="749">31</text><text x="1220" y="749">1</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" font-weight="600">
+    <rect x="644" y="350" width="166" height="26" rx="5" fill="#eaf3f0"/><text x="653" y="368" fill="#2c6963">Prepare launch checklist</text>
+    <rect x="836" y="453" width="166" height="26" rx="5" fill="#e8f3eb"/><text x="845" y="471" fill="#37734c">Milestone review ✓</text>
+    <rect x="452" y="556" width="166" height="26" rx="5" fill="#f1eafa"/><text x="461" y="574" fill="#694a87">Stakeholder update</text>
+    <rect x="836" y="659" width="168" height="26" rx="5" fill="#fff0e9"/><text x="845" y="677" fill="#a85838">Overdue follow-up</text>
+  </g>
+  <text x="50" y="858" fill="#73838b" font-family="Arial,sans-serif" font-size="13">Illustrative preview · synthetic sample cards</text>
+  <text x="1390" y="858" text-anchor="end" fill="#73838b" font-family="Arial,sans-serif" font-size="13">Dates are read from the current board</text>
+</svg>

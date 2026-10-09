@@ -13,14 +13,14 @@
 - Privacy: <https://mateopedersen.github.io/calendarflow-trello-powerup/docs/privacy.html>
 - Categories: IT & project management; Analytics & reporting
 - Capabilities selected: `board-buttons`, `on-enable`, `show-settings`
-- Listing language: English (US); listing draft saved in the portal
+- Listing language: English (US); revised listing draft prepared locally for portal update
 
 ## Review boundary
 
-The registration is real, but the Power-Up is not publicly approved or listed. The Joint Developer's Agreement has not been accepted and no support submission was sent.
+The registration is real, but the Power-Up is not publicly approved or listed. Trello's review team has tested the Power-Up and requested a fuller listing with visuals and a Content-Security-Policy for the connector. Once these changes are live, the owner can reply to request re-review. The current account owner reports receiving no separate agreement-signing email; confirm any remaining agreement requirement with Trello instead of assuming its status.
 
 The user explicitly approved adding the app to the private QA board after Trello disclosed access to board content, permission to add content and act on cards/lists, and visibility into board members' basic identity details. The connector implementation reads cards and lists and does not call write APIs. Trello's iframe permission context nevertheless included `board:write` and `organization:write`; this scope mismatch should be resolved before public review.
 
 Private QA verified iframe startup, onboarding, toolbar button, real board card/list reading, month/week/year views, insights, resources, and settings using synthetic cards. The print layout and controls displayed, but native print/PDF output was not confirmed. CSV and ICS controls were invoked, but the browser gave no visible download confirmation.
 
-The account owner must review and explicitly decide whether to accept any JDA themselves. Do not state that a submission was sent until the current developer support flow returns an actual submission confirmation.
+The review feedback came through the Atlassian Developer and Marketplace Support flow. No public listing or approval has been issued yet.

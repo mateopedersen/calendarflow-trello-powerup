@@ -1,6 +1,6 @@
 # CalendarFlow — Yayın Durumu
 
-Kontrol tarihi: 8 Ekim 2026
+Kontrol tarihi: 9 Ekim 2026
 
 ## Gerçek durum
 
@@ -11,7 +11,7 @@ Kontrol tarihi: 8 Ekim 2026
 - **Özel QA panosu:** Kullanıcı, Trello'nun gösterdiği geniş kapsamlı izin metnini yalnız bu özel QA panosu için onayladı ve Power-Up eklendi. Trello onayı pano, kart/listeler ve pano üyelerinin temel bilgilerine erişim; pano içeriği ekleme ve işlem yapma olanağı bildirdi. Uygulama kodu Trello'ya yazma çağrısı yapmıyor; Trello izin bağlamında `board:write` ve `organization:write` görünüyor. Bu geniş izin farkı public review öncesi açıklanmalı ve daraltma olanağı araştırılmalı.
 - **Gerçek pano testi:** Onboarding ve araç çubuğu düğmesi açıldı; Power-Up özel panodaki kartları okuyup doğru ay/hafta/yıl görünümleri, deadline içgörüleri, kaynak bağlantıları ve ayar penceresini gösterdi. Sentetik QA kartlarıyla doğrulanan sayılar: 3 son tarih, 1 tamamlanmış, 1 gecikmiş, 1 yaklaşan ve 1 tarihsiz kart.
 - **Yazdırma ve dışa aktarma:** Yazdırma görünümü ve A4/Letter, yön, başlık ve siyah-beyaz kontrolleri görüldü. Print/Save PDF tıklamasından sonra sistem yazdırma penceresi gözlenmedi; gerçek baskı/PDF çıktısı doğrulanmadı. CSV ve ICS düğmeleri sentetik veride çağrıldı ancak indirme teyidi alınmadı. Birim testleri tarih/CSV/ICS mantığını kapsıyor.
-- **Trello Marketplace:** App kaydı ve listing taslağı var; uygulama onaylı veya directory'de listelenmiş değil. Resmî rehber, review öncesinde JDA imzalanmasını istiyor. Destek formuna giden akış ayrıca Atlassian Ecosystem yardım merkezi hesabı açma ekranına yönlendirdi; ekrandaki “Sign up” düğmesi Privacy Policy ve Notice and Disclaimer'ı kabul ettiğini belirtiyor. Bu adım ve JDA kabulü yapılmadı. Submission gönderilmedi ve başvuru referansı yok. Herhangi bir yasal anlaşma, hesap sahibinin ilgili belgeye yönelik açık onayı olmadan kabul edilmemeli.
+- **Trello Marketplace incelemesi:** Trello Review Team uygulamayı panoya ekleyip test ettikten sonra 9 Ekim 2026'da iki değişiklik istedi: (1) Overview ve Description alanlarını fayda odaklı detaylarla ve bir iki görselle genişletmek, (2) connector yanıtına CSP güvenlik başlığı eklemek. Uygulama onaylı veya Directory'de listelenmiş değil; değişikliklerden sonra ekipten yeniden inceleme istenecek. Hesap sahibi ayrı bir imza e-postası almadığını bildirdi; JDA durumu Trello ile netleştirilecek.
 
 ## Uygulama kapsamı
 
@@ -32,9 +32,10 @@ Trello board-toolbar düğmesi, açılış rehberi, ayar penceresi, geçerli pan
 
 1. Yazdırma/PDF, CSV ve ICS indirmelerini tarayıcıda görünür çıktıyla doğrula; gerekiyorsa düzelt.
 2. Trello izin modelini resmi belgelerle karşılaştır ve connector yalnız okuma yaparken neden yazma düzeyinde onay istendiğini çözümle.
-3. Hesap sahibi JDA'yı kendisi inceleyip kabul etmeye karar vermeli. Kabul etmeden support submission gönderme.
-4. Gerçek uygulama ekranlarından marketplace görselleri üret ve portalın güncel gerekliliklerini karşıla.
-5. JDA ve QA koşulları sağlandıktan sonra resmi submission akışını tamamla; Trello'dan dönen başvuru numarası ve review durumunu kaydet.
-6. Trello onay verirse herkese açık directory kaydını anonim erişimde doğrula.
+3. İngilizce mağaza listing'ini Trello portalında yeni açıklama ve önizleme görselleriyle güncelle.
+4. GitHub Pages yerine CSP ve ek güvenlik başlıklarını uygulayabilen bir host'a geç; Trello'nun embed akışını ve CSP'yi QA panosunda doğrula.
+5. Review Team'e güncellemeleri bildirip yeniden inceleme iste; yanıt ve durumu kaydet.
+6. Ayrı JDA gerekliliği olup olmadığını Trello ile netleştir; yasal metni görmeden kabul edilmiş varsayma.
+7. Trello onay verirse herkese açık directory kaydını anonim erişimde doğrula.
 
 Resmî kaynaklar: [Public Power-Up Guidelines](https://developer.atlassian.com/cloud/trello/guides/power-ups/public-power-up-guidelines/), [Submit Your Power-Up](https://developer.atlassian.com/cloud/trello/guides/power-ups/submitting-your-power-up/), [Managing Apps](https://developer.atlassian.com/cloud/trello/guides/power-ups/managing-apps/), [User Permissions](https://developer.atlassian.com/cloud/trello/guides/power-ups/user-permissions-in-power-ups/).
